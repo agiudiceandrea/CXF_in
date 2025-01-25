@@ -1,17 +1,17 @@
 [general]
 name=Cxf_in
-qgisMinimumVersion=2.99
-qgisMaximumVersion=3.99
+qgisMinimumVersion=3.00
 description= Caricatore file CXF Catasto 
-version=9.0.4
+version=9.1
 author=Saccon Fabio
 
 email=saccon@gisplan.it
-changelog= v 9.0.4
+changelog= v 9.1
 
           
 
-          -minor bug 
+          -migrazione QGIS3 ;
+          -correzione bug;
           
 about =     
 
@@ -47,13 +47,14 @@ about =
 
 
 
-tags=  cxf, catasto,cxf_in, cadastral  
+tags=  cxf, catasto,cxf_in, cadastral,agenzia del territorio 
 
-tracker= http://hub.qgis.org/projects/gisplan/
-homepage= http://www.prgcloud.it/
-repository= https://drive.google.com/file/d/0B6Y-s-x2vxztVy1KcXBnaVNUbjA/edit?usp=sharing
+tracker= https://github.com/saccon/CXF_in/issues
+homepage= https://www.qgis.org/
+repository= https://github.com/saccon/CXF_in
 icon=icon.png
 
 
-experimental=True
+experimental=False
+deprecated=False
 
