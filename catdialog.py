@@ -36,7 +36,7 @@ from  .db_create import *
 # create the dialog for zoom to point
 import urllib
 import fileinput
-import sys, os, imp, re
+import sys, os, re
 import psycopg2
 import webbrowser
 rpointstart = QgsRubberBand(iface.mapCanvas(),QgsWkbTypes.PointGeometry )
