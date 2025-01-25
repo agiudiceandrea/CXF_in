@@ -323,7 +323,7 @@ class catDialog(QDockWidget):
         else:
             try:
 
-                req = 'http://www.prgcloud.com/auth/usercheck.php?username=' + self.ui.user.text() + '&password=' + self.ui.password.text()
+                req = 'https://www.prgcloud.com/auth/usercheck.php?username=' + self.ui.user.text() + '&password=' + self.ui.password.text()
                 try:
 
                     with contextlib.closing(urllib.request.urlopen(req)) as x:

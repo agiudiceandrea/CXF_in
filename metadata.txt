@@ -2,11 +2,11 @@
 name=Cxf_in
 qgisMinimumVersion=3.00
 description= Caricatore file CXF Catasto 
-version=9.1
+version=9.2
 author=Saccon Fabio
 
 email=saccon@gisplan.it
-changelog= v 9.1
+changelog= v 9.2
 
           
 
