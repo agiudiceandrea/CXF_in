@@ -41,8 +41,8 @@
     <property key="labeling/bufferSizeInMapUnits" value="false"/>
     <property key="labeling/bufferTransp" value="0"/>
     <property key="labeling/centroidWhole" value="false"/>
-    <property key="labeling/dataDefined/Rotation" value="1~~0~~~~Rot"/>
-    <property key="labeling/dataDefined/Size" value="1~~0~~~~Dim"/>
+    <property key="labeling/dataDefined/Rotation" value="1~~0~~~~Rtxt"/>
+    <property key="labeling/dataDefined/Size" value="1~~1~~&quot;Htxt&quot;  / 8~~Htxt"/>
     <property key="labeling/decimals" value="3"/>
     <property key="labeling/displayAll" value="false"/>
     <property key="labeling/dist" value="0"/>
@@ -172,13 +172,13 @@
   <edittypes>
     <edittype labelontop="0" editable="1" type="0" name="Allegato"/>
     <edittype labelontop="0" editable="1" type="0" name="Codice_comune"/>
-    <edittype labelontop="0" editable="1" type="0" name="Dim"/>
+    <edittype labelontop="0" editable="1" type="0" name="Htxt"/>
     <edittype labelontop="0" editable="1" type="0" name="Ext"/>
     <edittype labelontop="0" editable="1" type="0" name="Fg"/>
     <edittype labelontop="0" editable="1" type="0" name="Id"/>
     <edittype labelontop="0" editable="1" type="0" name="Mappale"/>
     <edittype labelontop="0" editable="1" type="0" name="Nomefile"/>
-    <edittype labelontop="0" editable="1" type="0" name="Rot"/>
+    <edittype labelontop="0" editable="1" type="0" name="Rtxt"/>
     <edittype labelontop="0" editable="1" type="0" name="Sez"/>
     <edittype labelontop="0" editable="1" type="0" name="Testo"/>
   </edittypes>

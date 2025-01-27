@@ -2,12 +2,15 @@
 name=Cxf_in
 qgisMinimumVersion=3.00
 description= Caricatore file CXF Catasto 
-version=9.2.1
+version=9.2.2
 author=Saccon Fabio
 
 email=saccon@gisplan.it
-changelog=v 9.2.1
-    -fix import (by Andrea Giudiceandrea)
+changelog=v 9.2.2
+    -correzione errori di importazione in memory layer (by Andrea Giudiceandrea)
+    -correzione rotazione e dimensione etichette layer Testi (by Andrea Giudiceandrea)
+    v 9.2.1
+    -correzione importazione modulo Python (by Andrea Giudiceandrea)
     v 9.2
     -migrazione QGIS3 ;
     -correzione bug;

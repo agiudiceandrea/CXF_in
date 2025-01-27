@@ -44,24 +44,24 @@ def memory_layer(self,filename):
         del selcrs
 
 
-        vl_conf= QgsVectorLayer("Polygon?"+stringacrs+"&field=Codice_comune:string(50)&field=Foglio:string(5)&field=Mappale:string(5)&field=Allegato:string(5)&field=Sviluppo:string(5)&field=Htxt:Double&field=Rtxt:Double&field=Xtxt:Double&field=Ytxt:Double","Confine", "memory")
+        vl_conf= QgsVectorLayer("Polygon?"+stringacrs+"&field=Codice_comune:string(50)&field=Foglio:string(5)&field=Mappale:string(11)&field=Allegato:string(5)&field=Sviluppo:string(5)&field=Htxt:Double&field=Rtxt:Double&field=Xtxt:Double&field=Ytxt:Double","Confine", "memory")
                          
         vl_part = QgsVectorLayer("Polygon?"+stringacrs+"&field=Codice_comune:string(50)&field=Foglio:string(5)&field=Mappale:string(5)&field=Allegato:string(5)&field=Sviluppo:string(5)&field=Htxt:Double&field=Rtxt:Double&field=Xtxt:Double&field=Ytxt:Double",
                            "Particelle", "memory")  
                          
-        vl_ed= QgsVectorLayer("Polygon?"+stringacrs+"&field=Codice_comune:string(50)&field=Foglio:string(5)&field=Mappale:string(5)&field=Allegato:string(5)&field=Sviluppo:string(5)&field=Htxt:Double&field=Rtxt:Double&field=Xtxt:Double&field=Ytxt:Double",
+        vl_ed= QgsVectorLayer("Polygon?"+stringacrs+"&field=Codice_comune:string(50)&field=Foglio:string(5)&field=Mappale:string(11)&field=Allegato:string(5)&field=Sviluppo:string(5)&field=Htxt:Double&field=Rtxt:Double&field=Xtxt:Double&field=Ytxt:Double",
                            "Fabbricati", "memory")  
-        vl_st= QgsVectorLayer("Polygon?"+stringacrs+"&field=Codice_comune:string(50)&field=Foglio:string(5)&field=Mappale:string(5)&field=Allegato:string(5)&field=Sviluppo:string(5)&field=Htxt:Double&field=Rtxt:Double&field=Xtxt:Double&field=Ytxt:Double",
+        vl_st= QgsVectorLayer("Polygon?"+stringacrs+"&field=Codice_comune:string(50)&field=Foglio:string(5)&field=Mappale:string(11)&field=Allegato:string(5)&field=Sviluppo:string(5)&field=Htxt:Double&field=Rtxt:Double&field=Xtxt:Double&field=Ytxt:Double",
                            "Strade", "memory")  
-        vl_aq= QgsVectorLayer("Polygon?"+stringacrs+"&field=Codice_comune:string(50)&field=Foglio:string(5)&field=Mappale:string(5)&field=Allegato:string(5)&field=Sviluppo:string(5)&field=Htxt:Double&field=Rtxt:Double&field=Xtxt:Double&field=Ytxt:Double",
+        vl_aq= QgsVectorLayer("Polygon?"+stringacrs+"&field=Codice_comune:string(50)&field=Foglio:string(5)&field=Mappale:string(11)&field=Allegato:string(5)&field=Sviluppo:string(5)&field=Htxt:Double&field=Rtxt:Double&field=Xtxt:Double&field=Ytxt:Double",
                            "Acque", "memory")  
-        vl_linee= QgsVectorLayer("Linestring?"+stringacrs+"&field=Codice_comune:string(50)&field=Fg:string(5)&field=Mappale:string(5)&field=All:string(5)&field=Sez:string(5)&field=Cod_linea:string(5)",
+        vl_linee= QgsVectorLayer("Linestring?"+stringacrs+"&field=Codice_comune:string(50)&field=Fg:string(5)&field=Mappale:string(11)&field=All:string(5)&field=Sez:string(5)&field=Cod_linea:string(5)",
                            "Linee", "memory")
-        vl_point= QgsVectorLayer("Point?"+stringacrs+"&field=Codice_comune:string(50)&field=Fg:string(5)&field=Mappale:string(5)&field=All:string(5)&field=Sez:string(5)&field=Simbolo:string(5)&field=Rot:Double",
+        vl_point= QgsVectorLayer("Point?"+stringacrs+"&field=Codice_comune:string(50)&field=Fg:string(5)&field=Mappale:string(11)&field=All:string(5)&field=Sez:string(5)&field=Simbolo:string(5)&field=Rot:Double",
                            "Simboli", "memory")  
-        vl_txt= QgsVectorLayer("Point?"+stringacrs+"&field=Codice_comune:string(50)&field=Fg:string(5)&field=Mappale:string(5)&field=All:string(5)&field=Sez:string(5)&field=testo:string(50)&field=Htxt:Double&field=Rtxt:Double&field=Xtxt:Double&field=Ytxt:Double",
+        vl_txt= QgsVectorLayer("Point?"+stringacrs+"&field=Codice_comune:string(50)&field=Fg:string(5)&field=Mappale:string(11)&field=All:string(5)&field=Sez:string(5)&field=testo:string(50)&field=Htxt:Double&field=Rtxt:Double&field=Xtxt:Double&field=Ytxt:Double",
                            "Testi", "memory")
-        vl_fidu= QgsVectorLayer("Point?"+stringacrs+"&field=Codice_comune:string(50)&field=Fg:string(5)&field=Mappale:string(5)&field=All:string(5)&field=Sez:string(5)&field=Codice:string(50)&field=Simbolo:string(5)&field=PosX:Double&field=PosY:Double&field=RelPosX:Double&field=RelPosY:Double",
+        vl_fidu= QgsVectorLayer("Point?"+stringacrs+"&field=Codice_comune:string(50)&field=Fg:string(5)&field=Mappale:string(11)&field=All:string(5)&field=Sez:string(5)&field=Codice:string(50)&field=Simbolo:string(5)&field=PosX:Double&field=PosY:Double&field=RelPosX:Double&field=RelPosY:Double",
                            "Fiduciali", "memory")
         livelligruppofoglio=[vl_aq,vl_st,vl_conf,vl_part,vl_txt,vl_fidu,vl_ed,vl_point,vl_linee]
         QgsProject.instance().addMapLayers(livelligruppofoglio,False)
