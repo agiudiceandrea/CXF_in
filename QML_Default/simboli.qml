@@ -524,7 +524,7 @@
       <prop k="valMin" v="200"/>
     </colorramp>
     <invertedcolorramp value="0"/>
-    <rotation field="CASE WHEN Simbolo = '5' OR Simbolo = '6' OR Simbolo = '7' THEN - Rot + 90WHEN Simbolo = '2' THEN - Rot + 180WHEN Simbolo = '11' THEN - Rot + 90ELSE - Rot END"/>
+    <rotation field="CASE WHEN Simbolo = '5' OR Simbolo = '6' OR Simbolo = '7' THEN - Rot WHEN Simbolo = '2' THEN - Rot + 180 WHEN Simbolo = '11' THEN - Rot + 90 ELSE - Rot END"/>
     <sizescale scalemethod="area"/>
   </renderer-v2>
   <customproperties>
