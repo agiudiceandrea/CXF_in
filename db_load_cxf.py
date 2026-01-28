@@ -317,7 +317,7 @@ def load_cxf(self,filename,liv,ocur,ocon):
     print (contariga)
     if in_line == "":
         break
-    if in_line == 'MAPPA':
+    if in_line in ('MAPPA','MAPPA/GRADI'):
 
        mappa = in_file.readline().strip()
        contariga+=1

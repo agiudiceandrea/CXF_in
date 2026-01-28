@@ -322,7 +322,7 @@ def load_cxf(self,filename,liv,vl_aq,vl_st,vl_conf,vl_part,vl_txt,vl_fidu,vl_ed,
     if in_line == "":
         break
 
-    if in_line in  ("MAPPA","QUADRO D\'UNIONE"):
+    if in_line in  ("MAPPA","MAPPA/GRADI","QUADRO D\'UNIONE"):
        mappa = in_file.readline().strip()
        
        if in_line == 'QUADRO D\'UNIONE':

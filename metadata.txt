@@ -2,11 +2,13 @@
 name=Cxf_in
 qgisMinimumVersion=3.00
 description= Caricatore file CXF Catasto 
-version=9.2.3
+version=9.2.4
 author=Saccon Fabio
 
 email=saccon@gisplan.it
-changelog=v 9.2.3
+changelog=v 9.2.4
+    -importazione CXF con intestazione "MAPPA/GRADI"
+    v 9.2.3
     -disattivazione etichette dei layer Strade e Acque e correzione rotazione simboli 5, 6 e 7 del layer Simboli (by Andrea Giudiceandrea)
     v 9.2.2
     -correzione errori di importazione in memory layer (by Andrea Giudiceandrea)
